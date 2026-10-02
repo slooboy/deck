@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>Outgoing Pocket Deck</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; font-family: Georgia, 'Times New Roman', serif; color: #f1e6de;
+    background: radial-gradient(120% 140% at 50% -10%, #1c3a30, #0f2019 70%); }
+  main { max-width: 440px; margin: 0 auto; padding: 22px 18px 40px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+  .eyebrow { margin: 0; font: 600 11px/1 'Trebuchet MS', Arial, sans-serif; letter-spacing: .26em; text-transform: uppercase; color: #cbab74; }
+  .cardimg { display: block; width: 100%; max-width: 380px; height: auto; border-radius: 10px; box-shadow: 0 18px 30px rgba(0,0,0,.45); }
+  a.imglink { display: block; width: 100%; max-width: 380px; -webkit-tap-highlight-color: transparent; }
+  .row { display: flex; gap: 12px; width: 100%; max-width: 380px; }
+  .btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 14px;
+    border-radius: 999px; border: 2px solid var(--deck); font: 600 12px/1 'Trebuchet MS', Arial, sans-serif; letter-spacing: .14em;
+    text-transform: uppercase; text-decoration: none; cursor: pointer; }
+  .btn.primary { background: var(--deck); color: #f1e6de; }
+  .btn.ghost { background: transparent; color: #f1e6de; border-color: rgba(241,230,222,.55); }
+  details { width: 100%; max-width: 380px; font: 14px/1.4 'Trebuchet MS', Arial, sans-serif; color: rgba(241,230,222,.8); }
+  summary { cursor: pointer; padding: 6px 0; }
+  details a { display: block; padding: 9px 0; color: #f1e6de; border-top: 1px solid rgba(241,230,222,.18); text-decoration: none; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #211b18; color: #f1e6de;
+    padding: 10px 16px; border-radius: 999px; font: 600 12px 'Trebuchet MS', Arial, sans-serif; letter-spacing: .08em; opacity: 0;
+    transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+  ol.places { list-style: none; margin: 0; padding: 0; width: 100%; max-width: 380px; }
+  ol.places li { border-top: 1px solid rgba(241,230,222,.18); }
+  ol.places li:last-child { border-bottom: 1px solid rgba(241,230,222,.18); }
+  ol.places a { display: flex; gap: 12px; align-items: baseline; padding: 13px 4px; color: #f1e6de; text-decoration: none; }
+  ol.places b { flex: none; width: 22px; font: 600 12px 'Trebuchet MS', Arial, sans-serif; color: #cbab74; }
+  ol.places span.t { font-size: 17px; flex: 1; }
+  ol.places span.k { font: 600 10px 'Trebuchet MS', Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: rgba(241,230,222,.6); }
+  .home { font: 600 11px 'Trebuchet MS', Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #cbab74; text-decoration: none; }
+</style></head><body style="--deck:#7a4a3a"><main>
+<p class="eyebrow">Outgoing &middot; Pocket Deck</p>
+<h1 style="font-weight:500;margin:0;font-size:28px;text-align:center">A Deck for Every City</h1>
+<ol class="places">
+<li><a href="d/florence.html"><span class="t">Florence</span><span class="k">3 places</span></a></li>
+<li><a href="d/dc.html"><span class="t">Washington, D.C.</span><span class="k">6 places</span></a></li>
+<li><a href="d/toronto.html"><span class="t">Toronto</span><span class="k">11 places</span></a></li>
+<li><a href="d/milan.html"><span class="t">Milan</span><span class="k">6 places</span></a></li>
+<li><a href="d/paris.html"><span class="t">Paris</span><span class="k">5 places</span></a></li>
+<li><a href="d/london.html"><span class="t">London</span><span class="k">1 place</span></a></li>
+</ol>
+</main></body></html>
